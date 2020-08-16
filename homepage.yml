@@ -1,0 +1,167 @@
+################################ Banner ##############################
+banner:
+  enable : true
+  subtitle : "Small Help Can Make Change"
+  title : "Be the change <br> you want to see this world"
+  content : "All we need is to build human relation with our deeds. <br>That's only thing that last forever ."
+  button:
+    enable : true
+    label : "Donate Now"
+    link : "donation"
+
+############################# Intro ##################################
+intro:
+  enable: true
+  subtitle : "WORK DONE BY MATARANI NGO"
+  title : "Part of being a person is <br>about helping others"
+  content : "Wanting to help those who are helping us by doing their job, highlights the strength of humanity.
+  Matarani has been serving free meals to the needy ever since the lockdown started, and plans to do so for 
+  as long as it lasts."
+  introItem:
+    # intro item loop
+    - title : "HEALTH(BLOOD DONATION & PATIENT HELP)"
+      image : "images/about/blood.jpg"
+      content : "Donating blood is one of the greatest ways to help humankind. By doing so, 
+                 we save someone’s precious life, and that is a blessing in itself."
+      
+    # intro item loop
+    - title : "Social welfare"
+      image : "images/about/socialwel.jpg"
+      content : "A social welfare system provides assistance to individuals and families in need. The types and
+       amount of welfare available to individuals and families vary depending on the country, state, or region."
+      
+    # intro item loop
+    - title : "Slum Education & Digitization"
+      image : "images/about/slum.jpg"
+      content : "This project is to provide education to the poor children in rural and slum areas  also giving free 
+      notebooks, dresses, special coaching and value education programs etc."
+      
+    # intro item loop
+    - title : "Environment"
+      image : "images/about/enviro.jpg"
+      content : "The theme for Environment  2020 is, 'Time for Nature,' with a focus on its role in 
+      providing the essential infrastructure that supports life on Earth and human development."
+
+     # intro item loop
+    - title : "Women care, help and Empowerment"
+      image : "images/about/women.jpg"
+      content : "When women earn, everyone benefits – so we help them get the tools and resources they need to lift 
+      themselves and their families out of poverty. CARE works with women to ensure they have a workplace that provides 
+      adequate wages and safe working conditions, where they are protected from sexual and gender-based violence."  
+
+     # intro item loop
+    - title : "Socail Event"
+      image : "images/about/flood.jpg"
+     
+      content : "Many of these events are aimed at promoting awareness about certain social issues which are widespread 
+      in our society.We visited those community people in different flood relief camps and tried to find out apart from 
+      government support what extra they require like clothes,fodder for animals,tents for shelter."
+
+
+
+################################# Video ###############################
+video:
+  enable : true
+  title : "Matarani_sahyog "
+  videoThumb : "images/bg/help.jpg"
+  video: "https://www.youtube.com/channel/UC_LLRskaCQ-2xkStzNduN0w"
+  
+################################# funfacts ###############################
+funfacts:
+  enable : true
+  funItem:
+    # funfacts item loop
+    - title : "Years of Experience"
+      count: "18"
+      
+    # funfacts item loop
+    - title : "Active Volunteer"
+      count: "1460"
+      
+    # funfacts item loop
+    - title : "Availble Country"
+      count: "92"
+      
+    # funfacts item loop
+    - title : "Million People Helped"
+      count: "54"
+
+############################ gallery ###################################
+gallery:
+  enable : true
+  subtitle : "Our Gallery"
+  title : "We make a living by what we get,<br> but we make a life by what we give."
+  galleryItems:
+    - image : "images/gallery/pic_1.jpg"
+    - image : "images/gallery/pic_2.jpg"
+    - image : "images/gallery/pic_3.jpg"
+    - image : "images/gallery/pic_4.jpg"
+    - image : "images/gallery/pic_5.jpg"
+    - image : "images/gallery/pic_6.jpg"
+    - image : "images/gallery/pic_7.jpg"
+    - image : "images/gallery/pic_8.jpg"
+    - image : "images/gallery/pic_9.jpg"
+
+########################## latest causes ################################
+causes:
+  enable : true
+  subtitle : "Latest Cuases"
+  title : "Our Recent Causes to serve better"
+  content : "We provide services in the area of IFRS and management reporting, helping companies to reach
+            their highest level."
+  # causes item comes from "content/event" folder
+
+######################## call to action ###################################
+cta:
+  enable : true
+  title : "We can’t help everyone, but everyone can help someone"
+  button:
+    enable : true
+    label : "Make a donation"
+    link : "donation"
+
+############################# Latest Blog ###############################
+blog:
+  enable : true
+  subtitle : ""
+  title : ""
+  content : ""
+  # blog item comes from "content/blog" folder
+
+################################# Volunteer ##############################
+volunteer:
+  enable : true
+  image : "images/bg/image-5.jpg"
+  title : "We can’t help everyone, but everyone can help someone"
+  content : "Assumenda reiciendis delectus dolore incidunt molestias omnis quo quaerat voluptate, eligendi perspiciatis
+            ipsa laudantium nesciunt officia, odit nemo quidem hic itaque. Fugiat."
+  partners:
+    enable : true
+    title : "Trusted worldwide partner"
+    partner:
+      # partner loop
+      - logo : "images/clients/client1.png"
+        link : "#"
+        
+      # partner loop
+      - logo : "images/clients/client2.png"
+        link : "#"
+        
+      # partner loop
+      - logo : "images/clients/client4.png"
+        link : "#"
+        
+      # partner loop
+      - logo : "images/clients/client5.png"
+        link : "#"
+        
+      # partner loop
+      - logo : "images/clients/client6.png"
+        link : "#"
+  
+  # form
+  form:
+    subtitle : "Join With us"
+    title : "Become A Volunteer"
+    formAction : "#" # form works with formspree.io
+    
